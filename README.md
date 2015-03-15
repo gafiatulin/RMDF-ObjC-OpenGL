@@ -1,9 +1,8 @@
 # RMDF-ObjC-OpenGL
-Interactive raymarching procedurally generated distance fields with Objective-C and OpenGL 4.
 
-**Studen project**
+Interactive raymarching procedurally generated distance fields with Objective-C and OpenGL 4. Student project.
 
-- Distance field generation on GPU using Simplex Noise.
+- Distance field generation on GPU using [Simplex Noise](http://en.wikipedia.org/wiki/Simplex_noise).
 
 - WASD camera control.
 
