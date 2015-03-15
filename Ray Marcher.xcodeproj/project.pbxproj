@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		572C0D5D18F8384D008D6A21 /* vs.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57418F7652B0026F472 /* vs.glsl */; };
+		572C0D5E18F8384D008D6A21 /* tcs.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57218F7652B0026F472 /* tcs.glsl */; };
+		572C0D5F18F8384D008D6A21 /* tes.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57318F7652B0026F472 /* tes.glsl */; };
+		572C0D6018F8384D008D6A21 /* gs.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57118F7652B0026F472 /* gs.glsl */; };
+		572C0D6118F8384D008D6A21 /* fs.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57018F7652B0026F472 /* fs.glsl */; };
+		576B8FAE18F8908A007F9851 /* openGLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 576B8FAD18F8908A007F9851 /* openGLCamera.m */; };
+		57CEC56818F764790026F472 /* openGLRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CEC56518F764790026F472 /* openGLRender.m */; };
+		57CEC56918F764790026F472 /* RayMarchOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CEC56718F764790026F472 /* RayMarchOpenGLView.m */; };
+		57CEC57F18F7652B0026F472 /* fileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CEC56C18F7652B0026F472 /* fileUtil.m */; };
+		57CEC58018F7652B0026F472 /* shaderUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 57CEC56E18F7652B0026F472 /* shaderUtil.c */; };
+		57CEC58618F7652B0026F472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CEC57718F7652B0026F472 /* AppDelegate.m */; };
+		57CEC58718F7652B0026F472 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57818F7652B0026F472 /* Credits.rtf */; };
+		57CEC58818F7652B0026F472 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC57918F7652B0026F472 /* Images.xcassets */; };
+		57CEC58A18F7652B0026F472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CEC57B18F7652B0026F472 /* main.m */; };
+		57CEC59118F7687B0026F472 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57CEC59018F7687B0026F472 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		576B8FAC18F8908A007F9851 /* openGLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = openGLCamera.h; path = Classes/openGLCamera.h; sourceTree = "<group>"; };
+		576B8FAD18F8908A007F9851 /* openGLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = openGLCamera.m; path = Classes/openGLCamera.m; sourceTree = "<group>"; };
+		57AD3C0818F6929100113A59 /* Ray Marcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ray Marcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CEC56418F764790026F472 /* openGLRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = openGLRender.h; path = Classes/openGLRender.h; sourceTree = "<group>"; };
+		57CEC56518F764790026F472 /* openGLRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = openGLRender.m; path = Classes/openGLRender.m; sourceTree = "<group>"; };
+		57CEC56618F764790026F472 /* RayMarchOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RayMarchOpenGLView.h; path = Classes/RayMarchOpenGLView.h; sourceTree = "<group>"; };
+		57CEC56718F764790026F472 /* RayMarchOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RayMarchOpenGLView.m; path = Classes/RayMarchOpenGLView.m; sourceTree = "<group>"; };
+		57CEC56B18F7652B0026F472 /* fileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileUtil.h; sourceTree = "<group>"; };
+		57CEC56C18F7652B0026F472 /* fileUtil.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = fileUtil.m; sourceTree = "<group>"; };
+		57CEC56D18F7652B0026F472 /* shaderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaderUtil.h; sourceTree = "<group>"; };
+		57CEC56E18F7652B0026F472 /* shaderUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shaderUtil.c; sourceTree = "<group>"; };
+		57CEC57018F7652B0026F472 /* fs.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fs.glsl; sourceTree = "<group>"; };
+		57CEC57118F7652B0026F472 /* gs.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gs.glsl; sourceTree = "<group>"; };
+		57CEC57218F7652B0026F472 /* tcs.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tcs.glsl; sourceTree = "<group>"; };
+		57CEC57318F7652B0026F472 /* tes.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tes.glsl; sourceTree = "<group>"; };
+		57CEC57418F7652B0026F472 /* vs.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vs.glsl; sourceTree = "<group>"; };
+		57CEC57618F7652B0026F472 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57CEC57718F7652B0026F472 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57CEC57818F7652B0026F472 /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		57CEC57918F7652B0026F472 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57CEC57A18F7652B0026F472 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		57CEC57B18F7652B0026F472 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57CEC57D18F7652B0026F472 /* Ray Marcher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ray Marcher-Info.plist"; sourceTree = "<group>"; };
+		57CEC57E18F7652B0026F472 /* Ray Marcher-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ray Marcher-Prefix.pch"; sourceTree = "<group>"; };
+		57CEC59018F7687B0026F472 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57AD3C0518F6929100113A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57AD3BFF18F6929100113A59 = {
+			isa = PBXGroup;
+			children = (
+				57AD3C1118F6929100113A59 /* Ray Marcher */,
+				57AD3C0918F6929100113A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57AD3C0918F6929100113A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57AD3C0818F6929100113A59 /* Ray Marcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57AD3C1118F6929100113A59 /* Ray Marcher */ = {
+			isa = PBXGroup;
+			children = (
+				57CEC55918F74E960026F472 /* Classes */,
+				57CEC56F18F7652B0026F472 /* Shaders */,
+				57CEC56A18F7652B0026F472 /* Other Sourses */,
+				57CEC57518F7652B0026F472 /* Supporting Files */,
+			);
+			path = "Ray Marcher";
+			sourceTree = "<group>";
+		};
+		57CEC55918F74E960026F472 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				576B8FAC18F8908A007F9851 /* openGLCamera.h */,
+				576B8FAD18F8908A007F9851 /* openGLCamera.m */,
+				57CEC56418F764790026F472 /* openGLRender.h */,
+				57CEC56518F764790026F472 /* openGLRender.m */,
+				57CEC56618F764790026F472 /* RayMarchOpenGLView.h */,
+				57CEC56718F764790026F472 /* RayMarchOpenGLView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		57CEC56A18F7652B0026F472 /* Other Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				57CEC56B18F7652B0026F472 /* fileUtil.h */,
+				57CEC56C18F7652B0026F472 /* fileUtil.m */,
+				57CEC56E18F7652B0026F472 /* shaderUtil.c */,
+				57CEC56D18F7652B0026F472 /* shaderUtil.h */,
+			);
+			path = "Other Sourses";
+			sourceTree = "<group>";
+		};
+		57CEC56F18F7652B0026F472 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				57CEC57418F7652B0026F472 /* vs.glsl */,
+				57CEC57218F7652B0026F472 /* tcs.glsl */,
+				57CEC57318F7652B0026F472 /* tes.glsl */,
+				57CEC57118F7652B0026F472 /* gs.glsl */,
+				57CEC57018F7652B0026F472 /* fs.glsl */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		57CEC57518F7652B0026F472 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57CEC57618F7652B0026F472 /* AppDelegate.h */,
+				57CEC57718F7652B0026F472 /* AppDelegate.m */,
+				57CEC57B18F7652B0026F472 /* main.m */,
+				57CEC57E18F7652B0026F472 /* Ray Marcher-Prefix.pch */,
+				57CEC57D18F7652B0026F472 /* Ray Marcher-Info.plist */,
+				57CEC57818F7652B0026F472 /* Credits.rtf */,
+				57CEC57A18F7652B0026F472 /* InfoPlist.strings */,
+				57CEC57918F7652B0026F472 /* Images.xcassets */,
+				57CEC59018F7687B0026F472 /* MainMenu.xib */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57AD3C0718F6929100113A59 /* Ray Marcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57AD3C3918F6929100113A59 /* Build configuration list for PBXNativeTarget "Ray Marcher" */;
+			buildPhases = (
+				57AD3C0418F6929100113A59 /* Sources */,
+				57AD3C0518F6929100113A59 /* Frameworks */,
+				57AD3C0618F6929100113A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ray Marcher";
+			productName = "Ray Marcher";
+			productReference = 57AD3C0818F6929100113A59 /* Ray Marcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57AD3C0018F6929100113A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Victor Gafiatulin";
+			};
+			buildConfigurationList = 57AD3C0318F6929100113A59 /* Build configuration list for PBXProject "Ray Marcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57AD3BFF18F6929100113A59;
+			productRefGroup = 57AD3C0918F6929100113A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57AD3C0718F6929100113A59 /* Ray Marcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57AD3C0618F6929100113A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572C0D5D18F8384D008D6A21 /* vs.glsl in Resources */,
+				572C0D5E18F8384D008D6A21 /* tcs.glsl in Resources */,
+				572C0D5F18F8384D008D6A21 /* tes.glsl in Resources */,
+				572C0D6018F8384D008D6A21 /* gs.glsl in Resources */,
+				572C0D6118F8384D008D6A21 /* fs.glsl in Resources */,
+				57CEC59118F7687B0026F472 /* MainMenu.xib in Resources */,
+				57CEC58718F7652B0026F472 /* Credits.rtf in Resources */,
+				57CEC58818F7652B0026F472 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57AD3C0418F6929100113A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CEC58018F7652B0026F472 /* shaderUtil.c in Sources */,
+				57CEC57F18F7652B0026F472 /* fileUtil.m in Sources */,
+				57CEC56918F764790026F472 /* RayMarchOpenGLView.m in Sources */,
+				57CEC56818F764790026F472 /* openGLRender.m in Sources */,
+				57CEC58A18F7652B0026F472 /* main.m in Sources */,
+				576B8FAE18F8908A007F9851 /* openGLCamera.m in Sources */,
+				57CEC58618F7652B0026F472 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		57AD3C3718F6929100113A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57AD3C3818F6929100113A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57AD3C3A18F6929100113A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ray Marcher/Supporting Files/Ray Marcher-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Ray Marcher/Supporting Files/Ray Marcher-Info.plist";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57AD3C3B18F6929100113A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ray Marcher/Supporting Files/Ray Marcher-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Ray Marcher/Supporting Files/Ray Marcher-Info.plist";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57AD3C0318F6929100113A59 /* Build configuration list for PBXProject "Ray Marcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AD3C3718F6929100113A59 /* Debug */,
+				57AD3C3818F6929100113A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57AD3C3918F6929100113A59 /* Build configuration list for PBXNativeTarget "Ray Marcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57AD3C3A18F6929100113A59 /* Debug */,
+				57AD3C3B18F6929100113A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57AD3C0018F6929100113A59 /* Project object */;
+}
