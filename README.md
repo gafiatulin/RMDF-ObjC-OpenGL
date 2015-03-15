@@ -10,7 +10,7 @@ Interactive raymarching procedurally generated distance fields with Objective-C 
 - Rather low memory footprint (~20 Mb), since most work is being done on GPU.
 
 
-**Information on raymarching distance fields: [Iñigo Quilez's site](http://www.iquilezles.org/www/index.htm).***
+**Information on raymarching distance fields: [Iñigo Quilez's site](http://www.iquilezles.org/www/index.htm).**
 
 ###Windowed:
 ![Windowed](https://cloud.githubusercontent.com/assets/666055/6658036/c3ddba0c-cb6d-11e4-97ab-13963fbc8674.png)
