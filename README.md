@@ -1,6 +1,6 @@
 # Interactive raymarching procedurally generated distance fields with Objective-C and OpenGL 4.
 
-**Student project.**
+**Student project. Year 2014**
 
 - Distance field generation on GPU using [Simplex Noise](http://en.wikipedia.org/wiki/Simplex_noise).
 
